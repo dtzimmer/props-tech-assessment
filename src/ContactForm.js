@@ -9,7 +9,6 @@ class ContactForm extends Component {
       lastName: '',
       phone: '',
       email: '',
-      displaycontact: '',
     }
     this.handleSubmit = this.handleSubmit.bind(this)
   }
