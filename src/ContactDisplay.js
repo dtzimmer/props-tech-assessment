@@ -8,7 +8,7 @@ class ContactDisplay extends Component {
       <Fragment>
         <h1>Contact Display</h1>
         <section>
-          <div className="contactdisplay">
+          <div className="contactdisplay"> {/*Props are passed and rendered here in this child component*/}
             <h4>First Name:</h4>
             <p>{this.props.fname}</p>
             <h4>Last Name:</h4>
